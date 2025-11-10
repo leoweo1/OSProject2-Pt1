@@ -18,19 +18,18 @@ A solution to the IPC synchronization problem implementing the "Poor Student - D
 ```bash
 gcc -o psdd psdd.c -lpthread
 ```
-
-Usage
+## Usage
 bash
+
 # Basic: 1 Dad + 1 Student
 ./psdd 1 1
 
 # Extra credit: Mom + Dad + 3 Students
 ./psdd 2 3
 
-Files
+## Files
 psdd.c - Main solution implementation
 
 example.c - Reference semaphore example
 
 shm_processes.c - Shared memory example
-
