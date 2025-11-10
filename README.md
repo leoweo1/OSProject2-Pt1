@@ -21,10 +21,10 @@ gcc -o psdd psdd.c -lpthread
 ## Usage
 bash
 
-# Basic: 1 Dad + 1 Student
+## Basic: 1 Dad + 1 Student
 ./psdd 1 1
 
-# Extra credit: Mom + Dad + 3 Students
+## Extra credit: Mom + Dad + 3 Students
 ./psdd 2 3
 
 ## Files
