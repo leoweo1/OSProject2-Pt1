@@ -17,6 +17,7 @@ A solution to the IPC synchronization problem implementing the "Poor Student - D
 ## Compilation
 ```bash
 gcc -o psdd psdd.c -lpthread
+```
 
 Usage
 bash
